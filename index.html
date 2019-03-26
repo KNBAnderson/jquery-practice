@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -10,12 +11,30 @@
     <div class="container">
       <h1>HTML help</h1>
 
-      <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on.</p>
+      <div id="toggle-container">
+        <div class="walrus-hidden">
+          <p>This is a very special page. If you <span class="clickable">click here</span>, it will show you a very fancy fellow.</p>
+        </div>
+        <div class="walrus-showing">
+          <p>Look at this cute walrus!</p>
+          <img src="img/walrus.jpeg" alt="a portrait of a walrus in a fancy robe" class="clickable" >
+        </div>
+      </div>
 
-      <p>Look at this cute walrus!</p>
-      <img src="img/walrus.jpg">
+      <div id="fade-container">
+        <div id="walrus-fade-in">
+          <p>Look at the fading walrus</p>
+          <img src="img/fade-walrus.jpg" alt="a creepy sketch of a walrus" class="clickable">
+        </div>
+      </div>
+
+      <div id="slide-container">
+        <div id="walrus-slide-in">
+          <p>look at the walrus slide in with style</p>
+          <img src="img/slide-walrus.jpg" alt="a stoic walrus on a red water slide">
+        </div>
+      </div>
+      
     </div>
-
-
   </body>
 </html>

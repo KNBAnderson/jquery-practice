@@ -1,13 +1,21 @@
 $(document).ready(function() {
-  $("h1").click(function() {
-    alert("This is a header.");
+
+
+  $("#toggle-container .clickable").click(function() {
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle().hide();
   });
 
-  $("p").click(function() {
-    alert("This is a paragraph.");
+  $("#toggle-container img.clickable").click(function() {
+    $("#walrus-fade-in").fadeIn();
+
   });
 
-  $("img").click(function() {
-    alert("This is an image.");
+  $("#fade-container img.clickable").click(function() {
+    $("#walrus-fade-in").fadeOut();
+    $("#walrus-slide-in").slideToggle();
+    // $("#walrus-slide-out").slideOut();
   });
+
+
 });

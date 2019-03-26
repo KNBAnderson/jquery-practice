@@ -1,0 +1,20 @@
+.clickable {
+  cursor: crosshair;
+  color: #8CDFD6;
+}
+.clickable:hover {
+  text-decoration: overline;
+  text-shadow: #7B6D8D;
+}
+.walrus-showing, #walrus-fade-in, #walrus-fade-out, #walrus-slide-in{
+  display: none;
+}
+
+body {
+  background-color:
+}
+
+img {
+  width: 400px;
+  height: auto;
+}

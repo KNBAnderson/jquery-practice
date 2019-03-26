@@ -1,8 +1,8 @@
 # _jQuery Practice_
 
-#### _This is a page demonstrating some jQuery. March 25,2019_
+#### _This is a page demonstrating some jQuery. March 26,2019_
 
-#### By _**Katlin Anderson and Reese Lee**_
+#### By _**Katlin Anderson, Reese Lee, Mathew**_
 
 ## Description
 
@@ -22,4 +22,4 @@ _We used HTML, jQuery, and JavaScript to create this app._
 
 *MIT license.*
 
-Copyright (c) 2016 **_Katlin Anderson and Reese Lee_**
+Copyright (c) 2016 **_Katlin Anderson, Reese Lee, Mathew Akre_**
