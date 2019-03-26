@@ -1,3 +1,7 @@
+/* font-family: 'Tangerine', cursive; fancy #EAD2AC
+font-family: 'ZCOOL KuaiLe', cursive; creepy #FF5714
+font-family: 'Butterfly Kids', cursive; slide #2DC7FF*/
+
 .clickable {
   cursor: crosshair;
   color: #8CDFD6;
@@ -17,4 +21,18 @@ body {
 img {
   width: 400px;
   height: auto;
+}
+
+.tan-background{
+  background-color: #EAD2AC;
+  font-family: 'Tangerine', cursive;
+}
+
+.orange-background{
+  background-color: #FF5714;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+.blue-background{
+  background-color: #2DC7FF;
+  font-family: 'Butterfly Kids', cursive;
 }
